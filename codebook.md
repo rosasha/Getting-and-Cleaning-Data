@@ -53,3 +53,11 @@ The set of variables that were estimated from these signals are:
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 *gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean*
+
+**Tidy data:**
+
+*Activity*: the class labels with their activity name
+
+*Subject*: subject who performed the activity for each window sample
+
+***The others valuables***: the **average** of each variable for each activity and each subject
